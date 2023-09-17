@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "dine-market",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,22 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.5.4",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
-    "lucide-react": "^0.268.0",
-    "next": "13.4.19",
-    "postcss": "8.4.28",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.13",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "lucide-react": "^0.248.0",
+    "next": "13.4.6",
+    "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^8.1.2",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss": "3.3.3",
-    "tailwindcss-animate": "^1.0.6",
-    "typescript": "5.1.6"
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.1.3"
   }
 }
