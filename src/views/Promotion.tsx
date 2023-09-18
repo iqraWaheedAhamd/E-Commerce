@@ -17,9 +17,9 @@ const Promotion = () => {
       <div className="flex w-full space-y-5 flex-col lg:flex-row lg:space-x-5 lg:space-y-0">
         <div>
           <div className="event-banner-left space-y-5">
-            <div className="event-card bg-gray-200 h-64 flex justify-around ">
+            <div className="event-card bg-gray-200 h-64 py-12  flex justify-around ">
               <div className="content flex flex-col justify-center ml-10">
-                <h3 className="text-2xl font-semibold ">
+                <h3 className="text-2xl font-semibold  ">
                   GET UP TO
                   <span className="ml-2 ">60%</span>
                 </h3>
@@ -28,7 +28,7 @@ const Promotion = () => {
               </div>
               <Image alt="event" src={Event1} />
             </div>
-            <div className="flex basis-1 flex-col items-center space-y-5 bg-[#212121] p-8 text-white lg:basis-1/2">
+            <div className="flex basis-1 flex-col items-center space-y-8 bg-[#212121] p-8 text-white lg:basis-1/2">
               <p className="text-4xl font-extrabold">GET 30% Off</p>
               <div className="flex flex-col items-center justify-center space-y-1">
                 <p className="text-sm font-normal">USE PROMO CODE</p>
